@@ -62,7 +62,7 @@ class Header extends React.Component {
           <Link to="/">Home</Link>
           <Link to="/page-2">Page 2</Link>
           <Link to="/page-3">Page 3</Link>
-          <Link to="/workshops">Stateful component on page scroll</Link>
+          <Link to="/stateful-fx">Stateful component on page scroll</Link>
           <Link to="/buy"><button>Buy</button></Link>
           <UserNav />
         </div>

@@ -1,24 +1,11 @@
+
+
 import React from "react"
 import { Link } from "gatsby"
 import Header from '../components/header'
-
-
-// import Layout from "../components/layout"
-// import SEO from "../components/seo"
 import styled from "styled-components"
-import { withAuthenticationRequired } from '@auth0/auth0-react'
-import MyForm from "./contact"
 
-// const SecondPage = () => (
-//   <Layout>
-//     <SEO title="Page two" />
-//     <h1>Hi from the second page</h1>
-//     <p>Welcome to page 2</p>
-//     <Link to="/">Go back to the homepage</Link>
-//   </Layout>
-// )
-
-function SecondPage ()  {
+function StatefulPage ()  {
   
 return (
     
@@ -26,12 +13,12 @@ return (
 
     <Header />
       <ContentWrapper>
-       <MyForm />
+      
                 <TextWrapper>
            
-            <Title>This is Page 2 for the Kingsland full-stack demo app.</Title>
+            <Title>This is the link page for the stateful React component.</Title>
            
-            <Description>A Gatsby/React (SEO, Speed, Easy Update(using hooks)) site that acts like a SPA with a public area
+            <Description>A Gatsby/React-Auth0-Getform (SEO, Speed, Easy Update(using hooks)) site that acts like a SPA with a public area
                 and private area with authentication.</Description>
            <Link to="/">Go back to the homepage</Link>
                 </TextWrapper>
@@ -39,8 +26,6 @@ return (
         </Wrapper>
   )
 }
-
-
 
 const Wrapper = styled.div`
     background: linear-gradient(180deg, #0276FD 30%, #74BBFB 100%);
@@ -68,4 +53,4 @@ const Description = styled.p`
     line-height: 130%;
 `
 
-export default withAuthenticationRequired(SecondPage)
+export default StatefulPage

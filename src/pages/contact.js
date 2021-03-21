@@ -1,5 +1,6 @@
 import React, { useState }  from "react"
 import axios from "axios";
+//** axios allows HTTP request for Getform */
 
 const MyForm = () => {
 
@@ -37,19 +38,33 @@ const MyForm = () => {
 
     <div>
          <div className="col-md-8 mt-5">
-            <h3>Send a message to my phone and email!</h3>
+            <h1>Send a message to my email!</h1><br></br>
             <form onSubmit={handleOnSubmit}>
-              <input type="email" name="email" placeholder="Your Email"/>
-              <input type="text" name="name" placeholder="Your Name"/>
-              <input type="text" name="message" placeholder="Your Message"/>
-              <button type="submit">Send</button>
+                <div className="form-group">
+                <label for="exampleInputEmail1" required="required">Email address:  </label>
+              <input type="email" name="email" className="form-control" placeholder="Your Email"/>
+              </div>
+                <div className="form-group">
+                <label for="exampleInputName">Name: </label>
+                <input type="text" name="name" className="form-control" id="exampleInputName" placeholder="Enter your name" required="required"/>
+              </div>
+             
+                 <div className="form-group">
+                <label for="exampleInputName">Message: </label>
+                <input type="text" name="message" className="form-control" placeholder="Your Message"/>
+              </div>
+              <button type="submit">Send</button><br></br>
           </form>
         </div>
       </div>
+
+
 
  
 
     );
   };
+
+
 
   export default MyForm;

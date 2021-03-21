@@ -6,7 +6,7 @@ import Header from '../components/header'
 // import Layout from "../components/layout"
 // import SEO from "../components/seo"
 import styled from "styled-components"
-import { withAuthenticationRequired } from '@auth0/auth0-react'
+// import { withAuthenticationRequired } from '@auth0/auth0-react'
 import MyForm from "./contact"
 
 // const SecondPage = () => (
@@ -18,7 +18,7 @@ import MyForm from "./contact"
 //   </Layout>
 // )
 
-function SecondPage ()  {
+function ThirdPage ()  {
   
 return (
     
@@ -29,7 +29,7 @@ return (
        <MyForm />
                 <TextWrapper>
            
-            <Title>This is Page 2 for the Kingsland full-stack demo app.</Title>
+            <Title>This is Page 3 for the Kingsland full-stack demo app.</Title>
            
             <Description>A Gatsby/React (SEO, Speed, Easy Update(using hooks)) site that acts like a SPA with a public area
                 and private area with authentication.</Description>
@@ -68,4 +68,4 @@ const Description = styled.p`
     line-height: 130%;
 `
 
-export default withAuthenticationRequired(SecondPage)
+export default (ThirdPage)
