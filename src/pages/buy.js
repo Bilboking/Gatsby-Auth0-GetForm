@@ -1,19 +1,25 @@
 import React from "react"
 import { Link } from "gatsby"
 import Header from '../components/header'
+
+
+// import Layout from "../components/layout"
+// import SEO from "../components/seo"
 import styled from "styled-components"
-import { getUsers } from "../utils/users"
+// import { withAuthenticationRequired } from '@auth0/auth0-react'
 
 
+// const SecondPage = () => (
+//   <Layout>
+//     <SEO title="Page two" />
+//     <h1>Hi from the second page</h1>
+//     <p>Welcome to page 2</p>
+//     <Link to="/">Go back to the homepage</Link>
+//   </Layout>
+// )
 
-
-
-function ThirdPage ()  {
-    React.useEffect(() => {
-        getUsers()
-    }, [])
-
-
+function BuyPage ()  {
+  
 return (
     
  <Wrapper>
@@ -23,13 +29,9 @@ return (
     
                 <TextWrapper>
            
-            <Title>This is Page 3 for the Kingsland full-stack demo app.</Title>
-           <div>
-            <a href="https://gatsbyclouddatocms80422.gtsb.io/">Go to my Stuff page that uses datoCMS</a><br></br><br></br>
-            <a href="https://cosmicblog13854.gatsbyjs.io/">Baby Donkey Blog</a>
-            </div>
-            <Description>A Gatsby/React (SEO, Speed, Easy Update(using hooks)) site that acts like a SPA with a public area
-                and private area with authentication.</Description>
+            <Title>Sorry, nothing yet avialable to buy.</Title>
+           
+            <Description>Check back soon.</Description>
            <Link to="/">Go back to the homepage</Link>
                 </TextWrapper>
             </ContentWrapper>
@@ -65,4 +67,4 @@ const Description = styled.p`
     line-height: 130%;
 `
 
-export default (ThirdPage)
+export default BuyPage

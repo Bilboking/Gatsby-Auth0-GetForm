@@ -38,7 +38,8 @@ const MyForm = () => {
 
     <div>
          <div className="col-md-8 mt-5">
-            <h1>Send a message to my email!</h1><br></br>
+            <h1>Send a message to my email! Set up using Axios
+              protects against cross site request forgery and supports older browsers.</h1><br></br>
             <form onSubmit={handleOnSubmit}>
                 <div className="form-group">
                 <label for="exampleInputEmail1" required="required">Email address:  </label>
