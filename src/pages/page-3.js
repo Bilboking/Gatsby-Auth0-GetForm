@@ -2,16 +2,16 @@ import React from "react"
 import { Link } from "gatsby"
 import Header from '../components/header'
 import styled from "styled-components"
-import { getUsers } from "../utils/users"
+// import { getUsers } from "../utils/users"
 
 
 
 
 
 function ThirdPage ()  {
-    React.useEffect(() => {
-        getUsers()
-    }, [])
+    // React.useEffect(() => {
+    //     getUsers()
+    // }, [])
 
 
 return (
@@ -20,7 +20,7 @@ return (
 
     <Header />
       <ContentWrapper>
-    
+   
                 <TextWrapper>
            
             <Title>This is Page 3 for the Kingsland full-stack demo app.</Title>

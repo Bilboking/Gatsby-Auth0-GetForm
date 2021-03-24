@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Bruce's Demo Webb App`,
-    description: `Bruce King's final full-stack app.`,
+    description: `This text is a result of a Gatsby page query and site metadata in gatsby-config.js.`,
     author: `@Bilboking`,
   },
   plugins: [

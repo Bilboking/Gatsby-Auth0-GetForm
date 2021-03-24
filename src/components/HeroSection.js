@@ -11,10 +11,10 @@ function HeroSection() {
             <ContentWrapper>
                 <TextWrapper>
             {/* <img src="/images/avatars/small-react-logo.png" alt="logo" /> */}
-            <Title>React.js Project Assignment App for Kingsland University</Title>
+            <Title>Home Page for React.js Project Assignment App for Kingsland University</Title>
            
-            <Description>A Gatsby/React (SEO, Speed, Easy Update(using hooks)) site that acts like a SPA with a public area
-                and private area with authentication.</Description>
+            <Description>A Gatsby/React (SEO, Speed, Easy Update) site that acts like a SPA with a public area
+                and private area with authentication that does something when you get inside.</Description>
             {/* <Link to="/page-2/">Login</Link> <br /> */}
                 </TextWrapper>
             </ContentWrapper>

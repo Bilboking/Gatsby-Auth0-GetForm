@@ -26,7 +26,7 @@ return (
 
     <Header />
       <ContentWrapper>
-       <MyForm />
+       <MyForm /><br></br><br></br>
                 <TextWrapper>
            
             <Title>This is Page 2 for the Kingsland full-stack demo app.</Title>
